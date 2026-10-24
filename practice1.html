@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Part 2 Assignment 5</title>
+
+  <script src="practice1.js" defer></script>
+
+  <style>
+    #focusCard {
+      padding: 30px;
+      border: 2px solid gray;
+    }
+
+    #focusCard.highlight {
+      background-color: #08a25d;
+    }
+
+  </style>
+</head>
+
+<body>
+  <h1>Merey Agybay MT-2506</h1>
+
+
+  <section>
+    <h2>Task 6</h2>
+
+    <p id="countDisplay">0</p>
+
+    <button id="incBtn">Increase</button>
+    <button id="decBtn">Decrease</button>
+    <button id="resetBtn">Reset</button>
+  </section>
+
+  <section>
+    <h2>Task 7</h2>
+
+    <label for="textInput">Type something:</label>
+    <input type="text" id="textInput" placeholder="Start typing...">
+
+    <button id="clearBtn">Clear</button>
+
+    <p id="previewPara">Your text will appear here</p>
+    <p>Character count: <span id="charCount">0</span></p>
+  </section>
+
+  
+
+
+  <section>
+    <h2>Task 8</h2>
+
+    <label for="imageSelect">Choose a view:</label>
+
+    <select id="imageSelect">
+      <option value="view1">Front View</option>
+      <option value="view2">Side View</option>
+      <option value="view3">Back View</option>
+    </select>
+
+    <figure>
+      <img id="previewImg" src="images/front.png" alt="Front view of the character" width="300">
+      <figcaption id="imgCaption">Front View</figcaption>
+     </figure>
+  </section>
+
+
+
+  <section>
+    <h2>Task 9</h2>
+    <label for="kbInput">Type and press Enter or Escape:</label>
+    <input type="text" id="kbInput" placeholder="Type something here...">
+
+    <p id="kbStatus">Key pressed: none</p>
+    <p>Result: <span id="kbResult"></span></p>
+  </section>
+
+
+  <section>
+    <h2>Task 10</h2>
+     <p id="instruction">Hover or focus on the card below.</p>
+
+    <div id="focusCard" tabindex="0">
+      <h3>Interactive focus card</h3>
+      <p>Hover over this card or use Tab to focus on it.</p>
+    </div>
+  </section>
+</body>
+</html>
